@@ -24,3 +24,6 @@ use useEffect() for search bar
 
 cached data^ tells next to render as a static page.
 no-caching will tell next, that data might change,so it will render at request time
+
+
+you can create dynamic routes, by making a folder template with [] and the name

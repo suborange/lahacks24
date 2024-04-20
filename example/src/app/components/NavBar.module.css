@@ -1,0 +1,47 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+/* body {
+    margin: 0;
+} */
+
+/* ALL THIS SHIT IS SPECIFIC FOR THE NAVBAR COMPONENT */
+.mainNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #42253B;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    font-size: 2.8rem; 
+}
+
+.navbar {    
+    color:#82D173;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    font-size: 1.6rem;
+}
+
+.link .active {
+    text-decoration: underline;
+    color: white;
+}
+
+.link:hover {
+    color: white;
+}
+
+.navCenter {
+    justify-content: center;
+}
+
+.mainColor {
+    color: #82D173;
+}
