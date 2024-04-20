@@ -1,0 +1,7 @@
+/* cant use dashes, not javascript compliant - use camel case */
+
+.card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+
+}

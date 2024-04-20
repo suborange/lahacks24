@@ -17,3 +17,10 @@ use useEffect() for search bar
  need to be importing, the export, for components, like the example of clien-side button component
  
  import AddToCart from './AddToCart';
+
+ fetch defaults to caching the data. use:
+ cache: 'no-store', // no caching of data, keeps data fresh
+        next: {revalidate: 10 } // run backend job, gets fresh data from backend every 10 seconds
+
+cached data^ tells next to render as a static page.
+no-caching will tell next, that data might change,so it will render at request time
