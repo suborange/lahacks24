@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import React from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavBar from "./components/NavBar"
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,14 +19,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    // <React.StrictMode>
+      // <BrowserRouter>
     <html lang="en">
      
       <body className={inter.className}>
       <NavBar /> 
         {children} 
      
-      
+        <Footer />
       </body>
+      
     </html>
+    // </BrowserRouter>
+    // </React.StrictMode>
   );
 }

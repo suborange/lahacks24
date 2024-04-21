@@ -1,0 +1,40 @@
+.mainFooter {    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #42253B;
+    margin: 0;
+    padding: 0;    
+}
+
+
+.Footer {    
+    color:#82D173;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    /* border: 2px solid black; */
+}
+.logo {
+    font-size: 1.8rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+}
+
+.link {
+    font-size: 0.7rem;
+}
