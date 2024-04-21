@@ -27,3 +27,10 @@ no-caching will tell next, that data might change,so it will render at request t
 
 
 you can create dynamic routes, by making a folder template with [] and the name
+
+
+
+react-router-dom for built in routing for cleaner, efficient routing/rendering
+resolving paths
+
+vs using manual pathing. windows.location.pathname, etc
