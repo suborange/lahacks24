@@ -1,10 +1,15 @@
-// homePage
-import React from 'react';
+// I think I want to make this my home page route "/"
 
-const homePage = () => {
+// HomePage
+import React from 'react';
+import styles from './home.module.css';
+
+const HomePage = () => {
     return (
-        <div>homePage</div>
+        <div className={styles.mainContainer}>
+            <div className={styles.container}>HomePage</div>
+        </div>
     );
 }
 
-export default homePage;
+export default HomePage;

@@ -7,6 +7,7 @@
 
 # css
 - font type
+- how to moudle css with a tag? like Link or li tags.
 
 # js/ts
 

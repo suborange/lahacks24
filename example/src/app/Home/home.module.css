@@ -1,0 +1,22 @@
+.mainContainer {    
+    /* height: 20%; */
+    display: flex;    
+    margin: 0;
+    padding: 0;    
+    border: 4px solid red;
+    justify-content: center;
+   
+}
+
+
+.container {    
+    color:#4C2C69;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border: 2px solid black;
+}

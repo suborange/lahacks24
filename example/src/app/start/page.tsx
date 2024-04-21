@@ -1,10 +1,13 @@
-// startPage
+// StartPage
 import React from 'react';
+import HeaderText from '../components/HeaderText';
 
-const startPage = () => {
+const StartPage = () => {
     return (
-        <div>startPage</div>
+        <>
+        <HeaderText/>
+        </>
     );
 }
 
-export default startPage;
+export default StartPage;

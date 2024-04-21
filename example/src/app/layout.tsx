@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import React from "react";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,19 +18,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // <React.StrictMode>
-      // <BrowserRouter>
+
     <html lang="en">
-     
-      <body className={inter.className}>
-      <NavBar /> 
-        {children} 
-     
+      <head><link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Itim&display=swap" rel="stylesheet" />
+      </head>
+
+      <body>
+        <NavBar />
+        <div className="mainContainer">
+          {children}
+        </div>
+
         <Footer />
       </body>
-      
+
     </html>
-    // </BrowserRouter>
-    // </React.StrictMode>
+
+
   );
 }

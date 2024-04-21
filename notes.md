@@ -30,7 +30,25 @@ you can create dynamic routes, by making a folder template with [] and the name
 
 
 
+# vanilla react stuff
+
 react-router-dom for built in routing for cleaner, efficient routing/rendering
 resolving paths
 
 vs using manual pathing. windows.location.pathname, etc
+
+
+# errors / questions
+crossOrigin is non-boolean
+changing a single tag with css modules
+
+navbar being a client side thing? this is how to get active
+
+can you css a fragment?
+
+
+do you know of a way to cycle through the rainbow?
+
+how to make some components?
+
+centering the {children}

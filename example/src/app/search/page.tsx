@@ -1,10 +1,10 @@
-// searchPage
+// SearchPage
 import React from 'react';
 
-const searchPage = () => {
+const SearchPage = () => {
     return (
-        <div>searchPage</div>
+        <div>SearchPage</div>
     );
 }
 
-export default searchPage;
+export default SearchPage;

@@ -1,0 +1,13 @@
+.text {
+font-size: 1.3rem;
+/* text-align: left; */
+color:#4C2C69;
+}
+
+.field {
+    border-radius: 5px;
+    width: 12%;
+    border: none;
+    background-color: #ABFAA9;
+}
+
