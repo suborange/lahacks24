@@ -20,20 +20,20 @@ export default function RootLayout({
   return (
 
     <html lang="en">
-      <head><link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Itim&display=swap" rel="stylesheet" />
-      </head>
+     <head><link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Itim&display=swap" rel="stylesheet"/>
+</head>
 
       <body>
-        <NavBar />
-        <div className="mainContainer">
-          {children}
+      <NavBar /> 
+      <div className="maincontainer">
+        {children} 
         </div>
-
+     
         <Footer />
       </body>
-
+      
     </html>
 
 

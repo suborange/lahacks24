@@ -7,9 +7,10 @@ import styles from "./temp.module.css";
 const TempPage = () => {
     return (
         <>
-        <div className={styles.container}>
-            <SignUpField />
-        </div>
+            <div className={styles.container}>
+                <SignUpField />
+            </div>
+
         </>
 
     );

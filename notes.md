@@ -52,3 +52,5 @@ do you know of a way to cycle through the rainbow?
 how to make some components?
 
 centering the {children}
+
+dynamic text in component
